@@ -1,0 +1,40 @@
+body {
+   margin: 0;
+   padding: 0;
+}
+.navbar {
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   position: fixed;
+   background-color: #efefef;
+   height: auto;
+   width: 100%;
+   color: red;
+}
+
+.links {
+   margin:auto;
+   padding: 0px;
+}
+ul {
+height: 35px;
+list-style:none;
+padding: 0;
+width: 210px;
+}
+li {
+float: left;
+line-height: 35px;
+font-size: 0.9em;
+width: 50px;
+text-align: center;
+}
+
+a {
+   text-decoration: none;
+   color: gray;
+}
+a:hover {
+   color: black;
+   text-decoration: underline;
+}
