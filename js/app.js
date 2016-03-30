@@ -9,6 +9,10 @@ app.config(function($routeProvider,$locationProvider){
 		templateUrl: 'views/cardapio.html',
 		controller: 'cardapioController'
 	})
+	.when('/pedido', {
+		templateUrl: 'views/pedido.html',
+		controller: 'cardapioController'
+	})
 	.when('/contato', {
 		templateUrl: 'views/contato.html',
 		controller: 'contatoController'
